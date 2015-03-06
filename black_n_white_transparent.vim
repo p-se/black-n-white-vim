@@ -16,28 +16,28 @@ endif
 
 let g:colors_name = "black_n_white"
 
-highlight Normal	    cterm=NONE ctermfg=white ctermbg=none gui=NONE guifg=white guibg=none
+highlight Normal	    cterm=NONE ctermfg=white ctermbg=none gui=NONE guifg=white guibg=black
 highlight NonText	    ctermfg=white ctermbg=black guifg=white guibg=black
 highlight LineNr        cterm=NONE ctermfg=gray ctermbg=black gui=NONE guifg=black guibg=gray 
 
 " Syntax highlighting scheme
-highlight Comment	    cterm=NONE ctermfg=gray ctermbg=none gui=NONE guifg=gray guibg=none
+highlight Comment	    cterm=NONE ctermfg=gray ctermbg=none gui=NONE guifg=gray guibg=black
 
-highlight Constant	    ctermfg=white ctermbg=none guifg=white guibg=none
-highlight String	    cterm=NONE ctermfg=white ctermbg=none guifg=white guibg=none
-highlight Character	    ctermfg=white ctermbg=none guifg=white guibg=none
-highlight Number	    ctermfg=white ctermbg=none guifg=white guibg=none
+highlight Constant	    ctermfg=white ctermbg=none guifg=white guibg=black
+highlight String	    cterm=NONE ctermfg=white ctermbg=none guifg=white guibg=black
+highlight Character	    ctermfg=white ctermbg=none guifg=white guibg=black
+highlight Number	    ctermfg=white ctermbg=none guifg=white guibg=black
 " Boolean defaults to Constant
-highlight Float		    ctermfg=white ctermbg=none guifg=white guibg=none
+highlight Float		    ctermfg=white ctermbg=none guifg=white guibg=black
 
-highlight Identifier	cterm=NONE ctermfg=white ctermbg=none guifg=white guibg=none
-highlight Function	    ctermfg=white ctermbg=none guifg=white guibg=none
+highlight Identifier	cterm=NONE ctermfg=white ctermbg=none guifg=white guibg=black
+highlight Function	    ctermfg=white ctermbg=none guifg=white guibg=black
 
-highlight Statement	    ctermfg=white ctermbg=none guifg=white guibg=none
-highlight Conditional	ctermfg=white ctermbg=none guifg=white guibg=none
-highlight Repeat	    ctermfg=white ctermbg=none guifg=white guibg=none
-highlight Label		    ctermfg=white ctermbg=none guifg=white guibg=none
-highlight Operator	    ctermfg=white ctermbg=none guifg=white guibg=none
+highlight Statement	    ctermfg=white ctermbg=none guifg=white guibg=black
+highlight Conditional	ctermfg=white ctermbg=none guifg=white guibg=black
+highlight Repeat	    ctermfg=white ctermbg=none guifg=white guibg=black
+highlight Label		    ctermfg=white ctermbg=none guifg=white guibg=black
+highlight Operator	    ctermfg=white ctermbg=none guifg=white guibg=black
 "highlight Visual		term=reverse cterm=reverse
 highlight Visual		cterm=NONE ctermfg=black ctermbg=white gui=NONE guifg=black guibg=white
 
@@ -46,7 +46,7 @@ hi Search cterm=NONE ctermfg=black ctermbg=white
 " Exception defaults to Statement
 
 " highlight PreProc	    cterm=bold ctermfg=white ctermbg=black gui=bold guifg=white guibg=black
-highlight PreProc	    cterm=NONE ctermfg=white ctermbg=none gui=NONE guifg=white guibg=none
+highlight PreProc	    cterm=NONE ctermfg=white ctermbg=none gui=NONE guifg=white guibg=black
 " Include defaults to PreProc
 " Define defaults to PreProc
 " Macro defaults to PreProc
@@ -54,7 +54,7 @@ highlight PreProc	    cterm=NONE ctermfg=white ctermbg=none gui=NONE guifg=white
 
 " highlight Type		    cterm=bold ctermfg=white ctermbg=black gui=bold guifg=white guibg=black
 " highlight Type		    cterm=NONE ctermfg=white ctermbg=black gui=bold guifg=white guibg=black
-highlight Type		    cterm=NONE ctermfg=white ctermbg=none gui=NONE guifg=white guibg=none
+highlight Type		    cterm=NONE ctermfg=white ctermbg=none gui=NONE guifg=white guibg=black
 " StorageClass defaults to Type
 " Structure defaults to Type
 " Typedef defaults to Type
