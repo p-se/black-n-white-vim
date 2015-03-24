@@ -1,12 +1,24 @@
 " Vim color file
+" Maintainer:   Mike Williams <mrmrdubya@gmail.com>
+" Last Change:  23rd March 2015
+" Version:  1.1
+
+" Copyright (c) 2009-2015 Mike Williams <mrmrdubya@gmail.com>
 "
-" Maintainer:	Mike Williams <mrw@eandem.co.uk>
-" Last Change:	2nd June 2003
-" Version:	1.1
-" Original name: print_bw
-" http://vim.sourceforge.net/scripts/script.php?script_id=233
+" Permission to use, copy, modify, and distribute this software for any
+" purpose with or without fee is hereby granted, provided that the above
+" copyright notice and this permission notice appear in all copies.
 "
-" Redesigned as black_n_white.
+" THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES
+" WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF
+" MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR
+" ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
+" WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN
+" ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF
+" OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+"
+" Redesigned as black_n_white by capay.
+" https://github.com/capay/black-n-white-vim
 
 " Remove all existing highlighting.
 set background=dark
